@@ -17,7 +17,7 @@ def feat_eng():
 
     print("null values----------", data.dtypes)
 
-    data.to_csv("bank_loan.csv")
+    data.to_csv("bank_loan.csv", index=False)
 
     return data
 
